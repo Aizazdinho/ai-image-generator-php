@@ -1,0 +1,26 @@
+.blur{
+  	filter: blur(8px);
+}
+
+.glass{
+	z-index: 1000;
+	background-color: rgba(230, 230, 230, 0);
+	position: absolute;
+}
+
+.img-box{
+	max-width: 300px;
+	min-width: 200px;
+	width: 280px;
+	border-radius: 10px;
+	max-height: 222px;
+	min-height: 161px;
+}
+
+.grid-wrap > div img{
+	width: 300px;
+}
+
+.grid-wrap > div{
+	min-width: 350px;
+}
